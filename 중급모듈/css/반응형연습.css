@@ -1,0 +1,44 @@
+.wrap {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  height: 150px;
+  background-color: #eeee;
+}
+
+.wrap-item {
+  padding: 2%;
+}
+
+.wrap-item p:nth-child(1) {
+  font-weight: 700;
+}
+
+/* 반응형 */
+
+/* 태블릿 1200px 이하 */
+@media screen and (max-width: 1200px) {
+  .wrap {
+    width: 420px;
+    flex-wrap: wrap;
+    height: 300px;
+  }
+
+  .wrap-item {
+    font-size: 20px;
+  }
+}
+
+/* 모바일 768px 이하 */
+@media screen and (max-width: 768px) {
+  .wrap {
+    width: 200px;
+    height: 400px;
+    flex-direction: column;
+  }
+
+  .wrap-item {
+    font-size: 15px;
+  }
+}
