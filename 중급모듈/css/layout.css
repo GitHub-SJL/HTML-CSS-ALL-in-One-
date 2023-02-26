@@ -1,0 +1,179 @@
+body {
+  margin: 0;
+  height: 100vh;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+/* nav */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 7%;
+  width: 100%;
+  background-color: #ff7679;
+  padding: 10px;
+}
+
+.nav-item {
+    margin-right: 15px;
+    color: #eeeeee;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+/* main */
+.main-background {
+  width: 100%;
+  height: 500px;
+  background-image: url("https://codingapple.com/wp-content/uploads/2019/06/shoes.jpg ");
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-position: right; */
+  /* filter: brightness(70%) saturate(50%); */
+  padding-top: 1px;
+  position: relative;
+}
+
+.main-title {
+  color: white;
+  font-size: 40px;
+  margin-top: 40px;
+  margin-left: 50px;
+}
+
+.main-background p {
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+  margin-left: 50px;
+}
+
+.main-background button {
+  margin-left: 50px;
+  background-color: sandybrown;
+  border-radius: 10px;
+  font-size: 10px;
+  width: 140px;
+  height: 45px;
+  border: none;
+  transition: all 0.3s ease 0s;
+  box-shadow: 0px 8px 15px sandybrown;
+  letter-spacing: 2.5px;
+  padding: 0;
+  overflow: visible;
+  cursor: pointer;
+}
+
+.main-background button:hover {
+  background-color: #2ee59d;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(7 px);
+}
+
+.explain-box {
+  border-radius: 10px;
+  background-color: #eeeeee;
+  width: 60%;
+  max-width: 600px;
+  height: 200px;
+  position: relative;
+  bottom: 30px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  color: black;
+  align-items: center;
+  padding: 20px;
+}
+
+.explain-box p {
+  margin: 0;
+  color: grey;
+}
+
+.sign-in {
+  width: 500px;
+  height: 600px;
+  border: 1px solid black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  position: relative;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.sign-in label {
+  margin-bottom: 5px;
+  display: block;
+}
+
+.sign-in-name {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sign-in-name input {
+  width: 180px;
+}
+
+.sign-in form {
+  margin-top: 50px;
+}
+
+input {
+  border: 1px solid silver;
+  border-radius: 5px;
+  padding: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 25px;
+}
+
+input[type="email"] {
+  width: 400px;
+}
+
+#message {
+  width: 400px;
+  height: 100px;
+  line-height: initial;
+}
+
+.sign-in-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sign-in-footer button {
+  margin-left: 50px;
+  background-color: sandybrown;
+  border-radius: 10px;
+  font-size: 10px;
+  width: 140px;
+  height: 45px;
+  border: none;
+  transition: all 0.3s ease 0s;
+  letter-spacing: 2.5px;
+  padding: 0;
+  overflow: visible;
+  cursor: pointer;
+}
+
+.sign-in-footer button:hover {
+  background-color: #2ee59d;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(7 px);
+}
