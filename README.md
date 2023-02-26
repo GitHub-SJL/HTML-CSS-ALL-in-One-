@@ -23,6 +23,6 @@
         :nth-child(n) /_n번째 자식 선택_/
         :first-child /_첫째 자식 선택_/
         :last-child /_마지막 자식 선택_/
-
-
-    
+        
+<strong>cart.html</strong>
+<img src="https://user-images.githubusercontent.com/116176170/221405226-f4e71cc1-b68d-41f2-a310-066f630d8add.png" width="400" height="300"/>

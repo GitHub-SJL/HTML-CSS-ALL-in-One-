@@ -6,11 +6,29 @@ div {
   box-sizing: border-box;
 }
 
+/* font-size */
+
+.f-small {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.f-mid {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.f-lg {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+/* wrap */
+
 .wrap {
   background-color: #b2ccd6;
   width: 736px;
   height: 514px;
-  font-size: 16px;
   padding: 30px;
 }
 
@@ -25,6 +43,8 @@ div {
   border-radius: 15px;
 }
 
+/* table tag*/
+
 table {
   border-collapse: collapse;
   height: 100%;
@@ -38,58 +58,58 @@ tr {
 
 tr,
 td {
-  padding: 10px;
+  padding: 5px;
   background-color: white;
 }
 
-.table-footer {
-  display: flex;
-  justify-content: space-between;
-}
-
-.table-img img {
-  padding-left: 20px;
-  width: 70px;
-  height: 70px;
-}
-
-.table-item p {
-  margin: 0;
-}
-
-.table-info p {
-  text-align: center;
-  color: #9bb3bb;
-  font-weight: 700;
-}
-
-.table-info-total p {
-  text-align: center;
-  padding-right: 10px;
-  color: #3c5e80;
-  font-weight: 700;
-}
-
-.table-item p:nth-child(1) {
-  color: black;
-  font-size: 20px;
-  font-weight: 700;
-}
-.table-item p:nth-child(2) {
-  color: #9bb3bb;
-  font-size: 16px;
-  font-weight: 700;
-}
+/* table-header */
 
 .table-header td {
-  font-size: 16px;
   text-align: center;
   color: #9bb3bb;
-  font-weight: 700;
 }
 
 .table-header td:nth-child(2) {
   text-align: start;
+}
+
+/* table-img */
+
+.table-img img {
+  padding-left: 20px;
+  width: 60%;
+  height: 60px;
+}
+
+/* table-item */
+
+.table-item p {
+  margin: 0;
+}
+.table-item p:nth-child(1) {
+  color: black;
+}
+.table-item p:nth-child(2) {
+  color: #9bb3bb;
+}
+
+/* table-info */
+
+.table-info p {
+  color: #9bb3bb;
+  text-align: center;
+}
+
+.info-total p {
+  padding-right: 10px;
+  color: #3c5e80;
+}
+
+/* table-footer */
+
+.table-footer {
+  display: flex;
+  justify-content: space-between;
 }
 
 .table-footer {
@@ -101,7 +121,6 @@ td {
 .table-footer a {
   margin-top: 10px;
   color: #3c5e80;
-  font-weight: 700;
 }
 
 .table-footer button {
@@ -114,13 +133,13 @@ td {
 }
 
 .table-footer button:hover {
-    background-color: chocolate;
+  background-color: chocolate;
 }
 
 .table-footer button:active {
-    background-color: brown;
+  background-color: brown;
 }
 
 .table-footer button:focus {
-    background-color: chocolate;
+  background-color: chocolate;
 }
