@@ -110,4 +110,17 @@ td {
   border: none;
   color: seashell;
   background-color: #3c5e80;
+  cursor: pointer;
+}
+
+.table-footer button:hover {
+    background-color: chocolate;
+}
+
+.table-footer button:active {
+    background-color: brown;
+}
+
+.table-footer button:focus {
+    background-color: chocolate;
 }
