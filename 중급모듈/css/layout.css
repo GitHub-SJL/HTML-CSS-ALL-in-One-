@@ -75,6 +75,8 @@ div {
   transform: translateY(7 px);
 }
 
+/* explain */
+
 .explain-box {
   border-radius: 10px;
   background-color: #eeeeee;
@@ -97,6 +99,94 @@ div {
   margin: 0;
   color: grey;
 }
+/* products */
+
+.products {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  height: 150px;
+}
+
+.products-item {
+  padding: 2%;
+}
+
+.products-item p:nth-child(1) {
+  font-weight: 700;
+}
+
+.products-icon {
+  background-color: burlywood;
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.products-icon i {
+  color: white;
+}
+
+/* shop */
+
+.shop-bg {
+  background-color: #eee;
+  padding: 20px;
+}
+.shop-container {
+  display: flex;
+  width: 90%;
+  margin: auto;
+}
+.shop-item {
+  width: 33%;
+  margin-right: 10px;
+  position: relative;
+}
+.shop-item img {
+  width: 100%;
+  display: block;
+}
+
+.overlay-wrap {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  margin-top: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  transition: all 1s;
+}
+
+.overlay span {
+  margin-top: 30%;
+  color: white;
+  font-size: 30px;
+
+}
+
+
+.overlay-wrap:hover .overlay{
+  margin-top: 50%;
+}
+
+/* sign */
 
 .sign-in {
   width: 500px;
@@ -260,5 +350,43 @@ input[type="email"] {
   .sign-in-footer button:hover {
     box-shadow: 0px 5px 10px rgba(46, 229, 157, 0.4);
     transform: translateY(3 px);
+  }
+}
+
+/* 모바일 768px 이하 */
+@media screen and (max-width: 768px) {
+  .products {
+    position: relative;
+    right: 0;
+    left: 0;
+    margin: auto;
+    width: 200px;
+    height: 500px;
+    flex-direction: column;
+  }
+
+  .products-item {
+    font-size: 12px;
+  }
+
+  .products-icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+  }
+
+  .products-icon i {
+    color: white;
+    font-size: 12px;
+  }
+
+  /* nav */
+  .nav {
+    height: 4%;
+  }
+
+  .nav-item {
+    margin-right: 5px;
+    font-size: 14px;
   }
 }

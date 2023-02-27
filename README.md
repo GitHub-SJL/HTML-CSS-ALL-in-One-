@@ -26,3 +26,17 @@
         
 - cart.html
 <img src="https://user-images.githubusercontent.com/116176170/221405539-0cb760ec-3666-47e4-afbf-aa139dafe0bb.png" width="400" height="300"/>
+
+# 중급모듈
+
+- 반응형 연습
+![ezgif com-video-to-gif](https://user-images.githubusercontent.com/116176170/221415029-490fa17f-f7af-4380-a525-315cea4755ea.gif)
+
+
+- 애니메이션 만들기 Step
+1. 시작스타일 만들기
+2. 최종스타일 만들기
+3. 언제 최종스타일로 변하는지
+4. transition으로 애니메이션 적용
+
+![ezgif com-video-to-gif (1)](https://user-images.githubusercontent.com/116176170/221506671-adad8718-a48e-4f3d-8ccc-317c630c9bd1.gif)
